@@ -1,0 +1,3 @@
+p = i; \\pois um ponteiro só pode recerber endereços de memória
+i = (*&)j; \\seria válido se não tivesse os parenteses
+q = *p \\pois q é um ponetiro e não pode recerber o valor do conteúdo de p

@@ -1,0 +1,45 @@
+Resultados supostos:
+
+se x for declarado como char?
+x+1 = 4093
+x+2 = 4094
+x+3 = 4095
+
+se x for declarado como int?
+x+1 = 4094
+x+2 = 4096
+x+3 = 4098
+
+se x for declarado como float?
+x+1 = 4096
+x+2 = 4100
+x+3 = 4104
+
+se x for declarado como double?
+x+1 = 4100
+x+2 = 4108
+x+3 = 4116
+
+======================
+
+Resultado do programa:
+
+Para char x: 61FE18 //ocupa 1 byte
+Para char x: 61FE19
+Para char x: 61FE1A
+Para char x: 61FE1B
+
+Para int x: 61FE00 //ocupa 4 bytes
+Para int x: 61FE04
+Para int x: 61FE08
+Para int x: 61FE0C
+
+Para float x: 61FDF0 //ocupa 4 bytes
+Para float x: 61FDF4
+Para float x: 61FDF8
+Para float x: 61FDFC
+
+Para double x: 61FDD0 //ocupa 8 bytes
+Para double x: 61FDD8
+Para double x: 61FDE0
+Para double x: 61FDE8

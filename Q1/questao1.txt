@@ -1,0 +1,5 @@
+p == &i; // o valor 1, de verdadeiro, pois p é o poteiro que aponta para o enderço de i
+*p - *q; // o conteudo de p menos o conteudo de q é igual a -2
+**&p; // essa expreção vai mostrar o valor do conteudo de p que é 3
+3 - *p/(*q) + 7; // o valor dessa expressão de números inteiros é 10
+		 // pois ao calcular uma expressão com int o sistema desconsidera a parte decimal

@@ -1,0 +1,4 @@
+p = mat + 1; //p vai pular uma posição do vetor
+x = (*mat)++ //vai somar 1 ao conteudo do vetor
+
+as outras expressões de imcremento não se aplica em vetores
